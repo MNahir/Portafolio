@@ -128,15 +128,15 @@ export const projectsData = [
     category: "Personal",
     description:
     "Este mismo 💕",
-    href: "https://fidel-portfolio-pink.vercel.app/",
+    href: "https://portafolio-phi-silk.vercel.app/",
     links: [
       {
         icon: <FiGithub />,
-        href: "https://github.com/httpfido/portfolio",
+        href: "https://github.com/MNahir/Portafolio",
       },
       {
         icon: <FiLink />,
-        href: "https://fidel-portfolio-pink.vercel.app/",
+        href: "https://portafolio-phi-silk.vercel.app/",
       },
     ],
   },
