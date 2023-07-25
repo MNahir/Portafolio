@@ -1,268 +1,297 @@
 //  icons
 import {
-  FiYoutube,
+  FiLinkedin,
   FiInstagram,
   FiGithub,
-  FiDribbble,
-  FiLayout,
-  FiSettings,
-  FiPenTool,
-  FiTag,
   FiMail,
   FiMapPin,
-} from 'react-icons/fi';
+  FiLink,
+} from "react-icons/fi";
 
-// companies icons
-import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
-import UpworkBrandIcon from './assets/img/brands/upwork.png';
-import FiverBrandIcon from './assets/img/brands/fiverr.png';
-import BehanceBrandIcon from './assets/img/brands/behance.png';
-import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import GameFindeX from "./assets/img/projects/videogames.jpg";
+import movi from "./assets/img/projects/finderservice.jpg";
+import portfolio from "./assets/img/projects/portfolio.jpg";
 
 // skills images
-import SkillImg1 from './assets/img/skills/html5.png';
-import SkillImg2 from './assets/img/skills/css3.png';
-import SkillImg3 from './assets/img/skills/js.png';
-import SkillImg4 from './assets/img/skills/reactjs.png';
-import SkillImg5 from './assets/img/skills/nextjs.png';
-import SkillImg6 from './assets/img/skills/nodejs.png';
-import SkillImg7 from './assets/img/skills/git.png';
-import SkillImg8 from './assets/img/skills/figma.png';
+import SkillImg1 from "./assets/img/skills/html5.png";
+import SkillImg2 from "./assets/img/skills/css3.png";
+import SkillImg3 from "./assets/img/skills/js.png";
+import SkillImg4 from "./assets/img/skills/reactjs.png";
+import SkillImg5 from "./assets/img/skills/tailwind.png";
+import SkillImg6 from "./assets/img/skills/nodejs.png";
+import SkillImg7 from "./assets/img/skills/git.png";
+import SkillImg8 from "./assets/img/skills/figma.png";
+import SkillImg10 from "./assets/img/skills/nextjs.png";
+import SkillImg11 from "./assets/img/skills/redux.png";
+import SkillImg12 from "./assets/img/skills/postgress.png";
+import SkillImg13 from "./assets/img/skills/mongodb.png";
+import SkillImg14 from "./assets/img/skills/sequelize.png";
+import SkillImg16 from "./assets/img/skills/github.png";
+import SkillImg17 from "./assets/img/skills/express.png";
+import SkillImg18 from "./assets/img/skills/githubdesktop.png";
+import SkillImg19 from "./assets/img/skills/visual.png";
+import SkillImg20 from "./assets/img/skills/photo.png";
 
-// testimonial images
-import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
-import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
-import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
 
 // navigation
 export const navigation = [
   {
-    name: 'home',
-    href: 'home',
+    name: "Inicio",
+    href: "home",
   },
   {
-    name: 'about',
-    href: 'about',
+    name: "Acerca de mí",
+    href: "about",
   },
   {
-    name: 'portfolio',
-    href: 'portfolio',
+    name: "habilidades",
+    href: "skills",
   },
   {
-    name: 'services',
-    href: 'services',
+    name: "proyectos",
+    href: "portfolio",
   },
   {
-    name: 'testimonials',
-    href: 'testimonials',
+    name: "contacto",
+    href: "contact",
   },
-  {
-    name: 'contact',
-    href: 'contact',
-  },
+  
 ];
 
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
-    href: '',
+    name: "Linkedin",
+    icon: <FiLinkedin />,
+    href: "https://www.linkedin.com/in/nahir-maresca-63b028251/",
   },
   {
-    icon: <FiInstagram />,
-    href: '',
-  },
-  {
+    name: "GitHub",
     icon: <FiGithub />,
-    href: '',
+    href: "https://github.com/MNahir",
   },
   {
-    icon: <FiDribbble />,
-    href: '',
+    name: "Instagram",
+    icon: <FiInstagram />,
+    href: "https://www.instagram.com/marescanahir/",
   },
 ];
 
-// companies
-export const brands = [
-  {
-    img: FreelancerBrandIcon,
-    href: '',
-  },
-  {
-    img: UpworkBrandIcon,
-    href: '',
-  },
-  {
-    img: FiverBrandIcon,
-    href: '',
-  },
-  {
-    img: BehanceBrandIcon,
-    href: '',
-  },
-  {
-    img: DribbbleBrandIcon,
-    href: '',
-  },
-];
 
 // projects
 export const projectsData = [
   {
-    id: '1',
-    image: Project1,
-    name: 'project name 1',
-    category: 'UI/UX design',
+    id: "1",
+    image: movi,
+    name: "Finder Service",
+    category: "grupal",
+    description:
+      "Finder Service es una plataforma digital que conecta a los usuarios empleadores con profesionales, especializados en solucionar problemas domésticos; y viceversa. Cuenta con una amplia red de especialistas en áreas como limpieza, fontanería y jardinería, lo que permite a los usuarios encontrar fácilmente expertos cualificados en su área, al ingresar la dirección. Además de facilitar la búsqueda, ofrecemos funciones como valoración de trabajos, pasarela de pagos y autenticación por terceros. También brinda la posibilidad a los profesionales de postularse para diferentes empleos. Utilizando tecnologías de desarrollo web avanzadas para brindar a nuestros consumidores una experiencia fluida y segura.",
+    href: "https://www.youtube.com/watch?v=EicCl16HXMM&ab_channel=Radish",
+    links: [
+      {
+        icon: <FiGithub />,
+        href: "https://github.com/FinderService/FinderService",
+      },
+      {
+        icon: <FiLink />,
+        href: "https://finder-service-bice.vercel.app/",
+      },
+    ],
   },
   {
-    id: '2',
-    image: Project2,
-    name: 'project name 2',
-    category: 'web development',
+    id: "2",
+    image: GameFindeX,
+    name: "Video Games",
+    category: "individual",
+    description:
+      "Creación de una SPA que integra los conocimientos adquiridos en el Bootcamp de Henry. La aplicación interactúa con una API externa para ofrecer funcionalidades como búsqueda de juegos, paginación, detalles de cada juego y filtros combinados con ordenamiento. Además, permite agregar juegos a una lista personalizada.",
+    href: "https://pi-videogames-front-production-9712.up.railway.app/",
+    links: [
+      {
+        icon: <FiGithub />,
+        href: "https://github.com/MNahir/PI-Videogames",
+      },
+      {
+        icon: <FiLink />,
+        href: "https://pi-videogames-front-production-9712.up.railway.app/",
+      },
+    ],
   },
+ 
   {
-    id: '3',
-    image: Project3,
-    name: 'project name 3',
-    category: 'UI/UX design',
+    id: "4",
+    image: portfolio,
+    name: "Mi portfolio",
+    category: "Personal",
+    description:
+    "Este mismo 💕",
+    href: "https://fidel-portfolio-pink.vercel.app/",
+    links: [
+      {
+        icon: <FiGithub />,
+        href: "https://github.com/httpfido/portfolio",
+      },
+      {
+        icon: <FiLink />,
+        href: "https://fidel-portfolio-pink.vercel.app/",
+      },
+    ],
   },
-  {
-    id: '4',
-    image: Project4,
-    name: 'project name 4',
-    category: 'branding',
-  },
-  {
-    id: '5',
-    image: Project5,
-    name: 'project name 5',
-    category: 'web development',
-  },
-  {
-    id: '6',
-    image: Project6,
-    name: 'project name 6',
-    category: 'web development',
-  },
+
 ];
 
 // projects
 export const projectsNav = [
   {
-    name: 'all',
+    name: "todos",
   },
   {
-    name: 'UI/UX Design',
+    name: "grupal",
   },
   {
-    name: 'web development',
+    name: "individual",
   },
   {
-    name: 'branding',
+    name: "personal",
   },
 ];
 
 // skill
-export const skills = [
+export const skillsFront = [
   {
     image: SkillImg1,
+    name: "HTML",
+    type: "front",
+    href: "https://html.spec.whatwg.org/multipage/"
   },
   {
     image: SkillImg2,
-  },
-  {
-    image: SkillImg3,
+    name: "CSS",
+    type: "front",
+    href: "https://www.w3schools.com/css/"
   },
   {
     image: SkillImg4,
+    name: "React",
+    type: "front",
+    href: "https://es.reactjs.org/"
   },
+  {
+    image: SkillImg11,
+    name: "Redux",
+    type: "front",
+    href: "https://redux.js.org/"
+  },
+  {
+    image: SkillImg10,
+    name: "Next JS",
+    type: "front",
+    href: "https://nextjs.org/"
+  },
+  
   {
     image: SkillImg5,
+    name: "TailwindCSS",
+    type: "front",
+    href: "https://tailwindcss.com/"
   },
+   
+  {
+    image: SkillImg8,
+    name: "Figma",
+    type: "front",
+    href: "https://www.figma.com/"
+  },
+];
+
+export const skillsBack = [
   {
     image: SkillImg6,
+    name: "Node JS",
+    type: "back",
+    href: "https://nodejs.org/en"
+  },
+  {
+    image: SkillImg14,
+    name: "Sequelize",
+    type: "back",
+    href: "https://sequelize.org/"
+  },
+  {
+    image: SkillImg17,
+    name: "Express",
+    type: "back",
+    href: "https://expressjs.com/es/"
+  },
+  {
+    image: SkillImg12,
+    name: "PostgreSQL",
+    type: "back",
+    href: "https://www.postgresql.org/"
+  },
+  {
+    image: SkillImg13,
+    name: "MongoDB",
+    type: "back",
+    href: "https://www.mongodb.com/es"
+  },
+
+];
+
+export const skillsOther = [
+  {
+    image: SkillImg3,
+    name: "JavaScript",
+    type: "other",
+    href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
   },
   {
     image: SkillImg7,
+    name: "Git",
+    type: "other",
+    href: "https://git-scm.com/"
   },
   {
-    image: SkillImg8,
+    image: SkillImg16,
+    name: "GitHub",
+    type: "other",
+    href: "https://github.com/"
+  },
+  {
+    image: SkillImg19,
+    name: "VSCode",
+    type: "other",
+    href: "https://code.visualstudio.com/"
+  },
+  {
+    image: SkillImg18,
+    name: "GitDesktop",
+    type: "other",
+    href: "https://desktop.github.com/"
+  },
+  {
+    image: SkillImg20,
+    name: "Photoshop",
+    type: "other",
+    href: "https://www.adobe.com/ar/products/photoshop.html"
   },
 ];
 
-// services
-export const services = [
-  {
-    icon: <FiLayout />,
-    name: 'Web Design',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
-  {
-    icon: <FiSettings />,
-    name: 'Web Development',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
-  {
-    icon: <FiPenTool />,
-    name: 'Branding',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
-  {
-    icon: <FiTag />,
-    name: 'SEO',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
-];
-
-// testimonials
-export const testimonials = [
-  {
-    authorImg: TestiImage1,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-  {
-    authorImg: TestiImage2,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-  {
-    authorImg: TestiImage3,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-];
 
 // contact
 export const contact = [
   {
     icon: <FiMail />,
-    title: 'Have a question?',
-    subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    title: "¿Te interesa hacerme una consulta?",
+    description: "Puedes enviarme un email a marescanahir18@gmail.com",
   },
   {
     icon: <FiMapPin />,
-    title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
-    description: 'Serving clients worldwide',
+    title: "Ubicación actual",
+    subtitle: "Tandil, Buenos Aires, Argentina",
+    description: "Trabajo remoto",
   },
 ];

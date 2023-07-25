@@ -3,11 +3,11 @@ module.exports = {
   theme: {
     fontFamily: {
       primary: 'Playfair Display',
-      body: 'Work Sans',
+      body: 'Comics Sans',
     },
     container: {
       padding: {
-        DEFAULT: '1rem',
+        DEFAULT: '2rem',
         lg: '3rem',
       },
     },
@@ -21,19 +21,17 @@ module.exports = {
       content: {
         about: 'url("/src/assets/img/outline-text/about.svg")',
         portfolio: 'url("/src/assets/img/outline-text/portfolio.svg")',
-        services: 'url("/src/assets/img/outline-text/services.svg")',
-        testimonials: 'url("/src/assets/img/outline-text/testimonials.svg")',
         contact: 'url("/src/assets/img/outline-text/contact.svg")',
       },
       colors: {
-        primary: '#050402',
-        secondary: '#1C1D24',
-        tertiary: '#131419',
+        primary: 'gray',
+        secondary: 'black',
+        tertiary: 'white',
         accent: {
-          DEFAULT: '#ac6b34',
-          hover: '#925a2b',
+          DEFAULT: 'black',
+          hover: 'white',
         },
-        paragraph: '#878e99',
+        paragraph: 'black',
       },
     },
   },
