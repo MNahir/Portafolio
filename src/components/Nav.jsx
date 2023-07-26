@@ -29,7 +29,7 @@ const Nav = () => {
         })}
         <a         
           className="hidden lg:flex flex-1 justify-end items-center h-full opacity-90"
-          href="https://drive.google.com/drive/folders/1WxKfmAw86aIvb5PS8vm2dvIl0lCk4EPI"
+          href="https://drive.google.com/file/d/1wgCOXcea4INFP0RiNQQrJQnCgUC8SRbz/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >

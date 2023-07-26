@@ -96,7 +96,7 @@ const NavMobile = () => {
         })}
                 <a
         className="text-xl cursor-pointer capitalize"
-        href="https://drive.google.com/drive/folders/1WxKfmAw86aIvb5PS8vm2dvIl0lCk4EPI"
+        href="https://drive.google.com/file/d/1wgCOXcea4INFP0RiNQQrJQnCgUC8SRbz/view?usp=sharing"
         target="_blank"
           rel="noreferrer"
         >
