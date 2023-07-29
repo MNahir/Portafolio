@@ -108,7 +108,7 @@ export const projectsData = [
     category: "individual",
     description:
       "Creación de una SPA que integra los conocimientos adquiridos en el Bootcamp de Henry. La aplicación interactúa con una API externa para ofrecer funcionalidades como búsqueda de juegos, paginación, detalles de cada juego y filtros combinados con ordenamiento. Además, permite agregar juegos a una lista personalizada.",
-    href: "https://pi-videogames-delta-nine.vercel.app/home",
+    href: "https://pi-videogames-delta-nine.vercel.app/",
     links: [
       {
         icon: <FiGithub />,
@@ -116,7 +116,7 @@ export const projectsData = [
       },
       {
         icon: <FiLink />,
-        href: "https://pi-videogames-delta-nine.vercel.app/home",
+        href: "https://pi-videogames-delta-nine.vercel.app",
       },
     ],
   },
